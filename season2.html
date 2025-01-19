@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BravoMe+ - Seasons</title>
+    <title>BravoMe+ - Season 2</title>
     <link rel="shortcut icon" type="image/png" href="BravoMePlusLogo.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
             align-items: center;
             background-color: #1a1a1a;
             padding: 20px;
-            color: #FFFFFF;
+            color: white;
         }
         h1 {
             font-family: "Overpass", sans-serif;
@@ -39,7 +39,7 @@
             font-size: 1.8rem;
         }
         nav a {
-            color: #FFFFFF;
+            color: white;
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.1rem;
@@ -47,35 +47,38 @@
         nav a:hover {
             color: #FF9800;
         }
-        .seasons-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 22px;
+        .episodes-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
             padding: 22px;
             flex-grow: 1;
         }
-        .season-card {
+        .episode-card {
+            display: flex;
             background-color: #1a1a1a;
             padding: 10px;
             border-radius: 8px;
             color: #FFFFFF;
-            text-align: center;
             text-decoration: none;
+            align-items: center;
         }
-        .season-card img {
-            width: 425px; 
-            height: 250px;
+        .episode-card img {
+            width: 125px;
+            height: 70px;
             border-radius: 8px;
-            margin-bottom: 10px;
+            margin-right: 15px;
         }
-        .season-card h3 {
+        .episode-card h3 {
             font-size: 1.2rem; 
-            margin: 10px 0;
+            margin: 0;
             color: #99C6E9;
         }
-        .season-card p {
+        .episode-card p {
             font-size: 0.9rem; 
+            margin: 0;
             color: #FFFFFF;
+            margin-left: auto;
         }
         footer {
             background-color: #1a1a1a;
@@ -103,46 +106,41 @@
         </nav>
     </header>
 
-    <section class="seasons-container">
-        <a href="season1.html" class="season-card">
-            <img src="seasonOneBanner.png" alt="Season 1">
-            <h3>Season 1 (2015)</h3>
-            <p>Where It All Began.</p>
+    <section class="episodes-container">
+        <a href="ep201.html" class="episode-card">
+            <img src="201Thumbnail.png" alt="Pilot">
+            <h3>Episode 1 - ?</h3>
+            <p>1:40 mins</p>
         </a>
-        <a href="season2.html" class="season-card">
-            <img src="seasonTwoBanner.png" alt="Season 2">
-            <h3>Season 2 (2016)</h3>
-            <p>They Made Another One.</p>
+        <a href="ep202.html" class="episode-card">
+            <img src="202Thumbnail.png" alt="Episode 2">
+            <h3>Episode 2 - ?</h3>
+            <p>2:23 mins</p>
         </a>
-        <a href="season3.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 3">
-            <h3>Season 3 (2017)</h3>
-            <p>They Made Another Other One.</p>
+        <a href="ep203.html" class="episode-card">
+            <img src="203Thumbnail.png" alt="Episode 3">
+            <h3>Episode 3 - ?</h3>
+            <p>2:48 mins</p>
         </a>
-        <a href="season4.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 4">
-            <h3>Season 4 (2018)</h3>
-            <p>Let The War Begin.</p>
+        <a href="ep204.html" class="episode-card">
+            <img src="204Thumbnail.png" alt="Episode 4">
+            <h3>Episode 4 - ?</h3>
+            <p>2:07 mins</p>
         </a>
-        <a href="season5.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 5">
-            <h3>Season 5 (2019)</h3>
-            <p>BravoMeTV 2, Electric Boogaloo.</p>
+        <a href="ep205.html" class="episode-card">
+            <img src="205Thumbnail.png" alt="Episode 5">
+            <h3>Episode 5 - ?</h3>
+            <p>3:41 mins</p>
         </a>
-        <a href="season6.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 6">
-            <h3>Season 6 (2022)</h3>
-            <p>It's All About Pebbles.</p>
+        <a href="ep206.html" class="episode-card">
+            <img src="206Thumbnail.png" alt="Episode 6">
+            <h3>Episode 6 - ?</h3>
+            <p>4:17 mins</p>
         </a>
-        <a href="season7.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 7">
-            <h3>Season 7 (2023)</h3>
-            <p>Little Guys Forever.</p>
-        </a>
-        <a href="season8.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 8">
-            <h3>Season 8 (2024)</h3>
-            <p>Enter The Beververse.</p>
+        <a href="ep207.html" class="episode-card">
+            <img src="207Thumbnail.png" alt="Episode 7">
+            <h3>Episode 7 - ?</h3>
+            <p>6:56 mins</p>
         </a>
     </section>
 
