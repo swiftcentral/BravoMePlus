@@ -69,10 +69,10 @@
             margin-bottom: 20px;
             color: #FFFFFF;
         }
-        .featured-container {
+        .featured-grid {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 15px;
         }
         .featured-card {
             background-color: #0077DD;
@@ -96,15 +96,27 @@
         .featured-card:hover {
             transform: scale(1.05);
         }
+        .host-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
         .hosts {
-            background-color: #FF9800; 
-            padding: 1px; 
+            background-color: #FF9800;
             color: white;
             border-radius: 12px;
-            width: flex;
-            gap: 20px;
             text-align: center;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 30px;
+            white-space: nowrap;
+            flex-shrink: 0;
             transition: transform 0.3s ease;
+        }
+        .hosts h3 {
+            margin: 0;
         }
         .hosts:hover {
             transform: scale(1.05);
@@ -128,7 +140,7 @@
 
     <section style="padding: 20px; background-color: #99C6E9;">
         <h2>Featured Episodes</h2>
-        <div style="display: flex; gap: 15px;">
+        <div class="featured-grid" style="display: flex; gap: 15px;">
             <div class="featured-container">
                 <a href="ep107.html" style="text-decoration: none;">
                     <div class="featured-card">
@@ -185,12 +197,20 @@
                     </div>
                 </a>
             </div>
+            <div class="featured-container">
+                <a href="ep412.html" style="text-decoration: none;">
+                    <div class="featured-card">
+                        <img src="412Thumbnail.png" alt="Episode 412">
+                        <h3>Season 4 Finale</h3>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
-    <section style="padding: 20px;">
+    <section style="padding:20px;">
         <h2>Browse by Host</h2>
-        <div style="display: flex; gap: 20px; ">
+        <div class="host-grid">
             <a href="cleff.html" style="text-decoration: none;" class="hosts">
                 <div style="padding: 20px;">
                     <h3>Cleff</h3>
@@ -199,6 +219,26 @@
             <a href="fish.html" style="text-decoration: none;" class="hosts">
                 <div style="padding: 20px;">
                     <h3>Fish</h3>
+                </div>
+            </a>
+            <a href="dreamer.html" style="text-decoration: none;" class="hosts">
+                <div style="padding: 20px;">
+                    <h3>Dreamer</h3>
+                </div>
+            </a>
+            <a href="einstein.html" style="text-decoration: none;" class="hosts">
+                <div style="padding: 20px;">
+                    <h3>Einstein</h3>
+                </div>
+            </a>
+            <a href="gig.html" style="text-decoration: none;" class="hosts">
+                <div style="padding: 20px;">
+                    <h3>Gig</h3>
+                </div>
+            </a>
+            <a href="jersey.html" style="text-decoration: none;" class="hosts">
+                <div style="padding: 20px;">
+                    <h3>Jersey</h3>
                 </div>
             </a>
             <a href="buttons.html" style="text-decoration: none;" class="hosts">
@@ -221,19 +261,34 @@
                     <h3>Jersey</h3>
                 </div>
             </a>
-            <a href="dreamer.html" style="text-decoration: none;" class="hosts">
+            <a href="jax.html" style="text-decoration: none;" class="hosts">
                 <div style="padding: 20px;">
-                    <h3>Dreamer</h3>
+                    <h3>Jax</h3>
                 </div>
             </a>
-            <a href="maestro.html" style="text-decoration: none;" class="hosts">
+            <a href="epoch.html" style="text-decoration: none;" class="hosts">
                 <div style="padding: 20px;">
-                    <h3>Maestro</h3>
+                    <h3>Epoch</h3>
+                </div>
+            </a>
+            <a href="enigma.html" style="text-decoration: none;" class="hosts">
+                <div style="padding: 20px;">
+                    <h3>Enigma</h3>
                 </div>
             </a>
             <a href="thwip.html" style="text-decoration: none;" class="hosts">
                 <div style="padding: 20px;">
                     <h3>Thwip</h3>
+                </div>
+            </a>
+            <a href="bogey.html" style="text-decoration: none;" class="hosts">
+                <div style="padding: 20px;">
+                    <h3>Bogey</h3>
+                </div>
+            </a>
+            <a href="maestro.html" style="text-decoration: none;" class="hosts">
+                <div style="padding: 20px;">
+                    <h3>Maestro</h3>
                 </div>
             </a>
             <a href="salt.html" style="text-decoration: none;" class="hosts">
@@ -251,19 +306,9 @@
                     <h3>Midas</h3>
                 </div>
             </a>
-            <a href="jax.html" style="text-decoration: none;" class="hosts">
-                <div style="padding: 20px;">
-                    <h3>Jax</h3>
-                </div>
-            </a>
             <a href="souroaf.html" style="text-decoration: none;" class="hosts">
                 <div style="padding: 20px;">
                     <h3>Sour Oaf</h3>
-                </div>
-            </a>
-            <a href="einstein.html" style="text-decoration: none;" class="hosts">
-                <div style="padding: 20px;">
-                    <h3>Einstein</h3>
                 </div>
             </a>
             <a href="red.html" style="text-decoration: none;" class="hosts">
