@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BravoMe+ - Extras</title>
+    <title>BravoMe+ - Season 5</title>
     <link rel="shortcut icon" type="image/png" href="BravoMePlusLogo.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
             font-style: normal;
             margin: 0;
             padding: 0;
-            background-color: #99C6E9;
+            background-color: #0077DD;
             color: #FFFFFF;
             min-height: 100vh;
             display: flex;
@@ -28,7 +28,7 @@
             align-items: center;
             background-color: #1a1a1a;
             padding: 20px;
-            color: #FFFFFF;
+            color: white;
         }
         h1 {
             font-family: "Overpass", sans-serif;
@@ -39,7 +39,7 @@
             font-size: 1.8rem;
         }
         nav a {
-            color: #FFFFFF;
+            color: white;
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.1rem;
@@ -47,35 +47,41 @@
         nav a:hover {
             color: #FF9800;
         }
-        .seasons-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 22px;
+        .episodes-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
             padding: 22px;
             flex-grow: 1;
         }
-        .season-card {
+        .episode-card {
+            display: flex;
             background-color: #1a1a1a;
             padding: 10px;
             border-radius: 8px;
             color: #FFFFFF;
-            text-align: center;
             text-decoration: none;
+            align-items: center;
         }
-        .season-card img {
-            width: 425px; 
-            height: 250px;
+        .episode-card img {
+            width: 125px;
+            height: 70px;
             border-radius: 8px;
-            margin-bottom: 10px;
+            margin-right: 15px;
         }
-        .season-card h3 {
+        .episode-card h3 {
             font-size: 1.2rem; 
-            margin: 10px 0;
-            color: #0077DD;
+            margin: 0;
+            color: #99C6E9;
         }
-        .season-card p {
+        .episode-card p {
             font-size: 0.9rem; 
+            margin: 0;
             color: #FFFFFF;
+            margin-left: auto;
+        }
+        .episode-card:hover {
+            transform: scale(1.01);
         }
         footer {
             background-color: #1a1a1a;
@@ -101,41 +107,46 @@
         </nav>
     </header>
 
-    <section class="seasons-container">
-        <a href="season3extras.html" class="season-card">
-            <img src="extrasSeasonThreeBanner.png" alt="Season 3">
-            <h3>Season 3 Extras</h3>
-            <p>They Made More Of Another Other One.</p>
+    <section class="episodes-container">
+        <a href="ep501.html" class="episode-card">
+            <img src="501Thumbnail.png" alt="Episode 1">
+            <h3>Episode 1 - BravoMeTV 029</h3>
+            <p>3:01 mins</p>
         </a>
-        <a href="season6extras.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 6">
-            <h3>Season 6 Extras</h3>
-            <p>It's Still About Pebbles.</p>
+        <a href="ep502.html" class="episode-card">
+            <img src="502Thumbnail.png" alt="Episode 2">
+            <h3>Episode 2 - BravoMeTV 2 001</h3>
+            <p>1:25 mins</p>
         </a>
-        <a href="season7extras.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 7">
-            <h3>Season 7 Extras</h3>
-            <p>Little Guys Forever And Ever.</p>
+        <a href="ep503.html" class="episode-card">
+            <img src="503Thumbnail.png" alt="Episode 3">
+            <h3>Episode 3 - BravoMeTV 2 002</h3>
+            <p>2:27 mins</p>
         </a>
-        <a href="season8extras.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 8">
-            <h3>Season 8 Extras</h3>
-            <p>Re-Enter The Beververse.</p>
+        <a href="ep504.html" class="episode-card">
+            <img src="504Thumbnail.png" alt="Episode 4">
+            <h3>Episode 4 - BravoMeTV 2 003</h3>
+            <p>1:50 mins</p>
         </a>
-        <a href="season9extras.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 9">
-            <h3>Season 9 Extras</h3>
-            <p>Keep The Secret... Camp.</p>
+        <a href="ep505.html" class="episode-card">
+            <img src="505Thumbnail.png" alt="Episode 5">
+            <h3>Episode 5 - BravoMeTV 030</h3>
+            <p>3:06 mins</p>
         </a>
-        <a href="season10extras.html" class="season-card">
-            <img src="placeholderImage.png" alt="Season 10">
-            <h3>Season 10 Extras</h3>
-            <p>And they rotated 90 degrees.</p>
+        <a href="ep506.html" class="episode-card">
+            <img src="506Thumbnail.png" alt="Episode 6">
+            <h3>Episode 6 - BravoMeTV 031</h3>
+            <p>1:42 mins</p>
         </a>
-        <a href="otherextras.html" class="season-card">
-            <img src="placeholderImage.png" alt="Other">
-            <h3>Other Extras</h3>
-            <p>Bravo Beverly Hills, Bravo.</p>
+        <a href="ep507.html" class="episode-card">
+            <img src="507Thumbnail.png" alt="Episode 7">
+            <h3>Episode 7 - BravoMeTV 2 004</h3>
+            <p>3:02 mins</p>
+        </a>
+        <a href="ep508.html" class="episode-card">
+            <img src="508Thumbnail.png" alt="Episode 8">
+            <h3>Episode 8 - BravoMeTV 3 001</h3>
+            <p>2:11 mins</p>
         </a>
     </section>
 
